@@ -186,7 +186,7 @@ function telaConfigurar() {
       <h1>Dinheiro na <span>Rua</span></h1>
       <p class="fraco">Primeira configuração. Os dados vão ficar num repositório privado do GitHub, criptografados com a senha. Sem a senha, ninguém lê.</p>
       <form id="form-config">
-        <label>Repositório dos dados (dono/nome)<input name="repo" placeholder="usuario/dinheiro-na-rua-dados" required></label>
+        <label>Repositório dos dados (dono/nome)<input name="repo" value="lucianodeassis141-web/dinheiro-na-rua-dados" required></label>
         <label>Token do GitHub (fine-grained, só esse repositório, Contents: leitura e escrita)<input name="token" required autocomplete="off"></label>
         <label>Senha de acesso<input type="password" name="senha" minlength="8" required autocomplete="new-password"></label>
         <label>Repita a senha<input type="password" name="senha2" required autocomplete="new-password"></label>
